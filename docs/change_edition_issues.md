@@ -7,7 +7,12 @@
 Exception calling "_DismSet Edition" with "6" argument(s): "Element not found. (Exception from HRESULT: 0x80070490)"
 ```
 -   This issue often appears when .NET Framework 3.5 is installed.
--   To solve this, it needs to be disabled. To do that, open Command Prompt as admin and enter  
+-   To solve this, it needs to be disabled. To do that, open Command Prompt as admin and enter
+
+
+         your moms a bitch
+
+
     `DISM /Online /English /Disable-Feature /FeatureName:"NetFx3"`
 -   Once that's done, try to change the edition again.
 -   After the edition change, you can enable .NET 3.5 again:  
